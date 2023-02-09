@@ -1,0 +1,10 @@
+Pour utiliser notre application, il suffit d'ecrire make
+puis d'ecrire la commande "./OCR_GUI".
+Nous pouvons voir a l'ecran trois boutons :
+    - le bouton en haut permet d'afficher l'image souhaitee
+    - le bouton "Transform" permet d'afficher l'image pretraitee
+    - le bouton "Rotate" permet de tourner l'image si elle n'est pas droite
+Un autre bouton "Solve" est disponible et permet de resoudre la grille.
+De plus, le bouton tout a droite que nous nommerons "switch" permet soit
+d'afficher l'image initial soit d'afficher notre grille en fonction de son
+activation ou non.

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.38.2 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkWindow" id="OCRWindow">
+    <property name="can-focus">False</property>
+    <child>
+      <object class="GtkFixed" id="OCRFixed">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkSwitch" id="image2grid">
+            <property name="width-request">77</property>
+            <property name="height-request">44</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <signal name="state-set" handler="on_image2grid_state_set" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">536</property>
+            <property name="y">317</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="transform_solve">
+            <property name="label" translatable="yes">Transform</property>
+            <property name="width-request">150</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <signal name="clicked" handler="on_transform_solve_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">50</property>
+            <property name="y">250</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="rotate">
+            <property name="label" translatable="yes">Rotate</property>
+            <property name="width-request">150</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <signal name="clicked" handler="on_rotate_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">50</property>
+            <property name="y">376</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="save">
+            <property name="label" translatable="yes">Save</property>
+            <property name="width-request">155</property>
+            <property name="height-request">119</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">290</property>
+            <property name="y">47</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="main_image">
+            <property name="width-request">270</property>
+            <property name="height-request">270</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="hexpand">False</property>
+            <property name="vexpand">False</property>
+            <property name="stock">gtk-missing-image</property>
+          </object>
+          <packing>
+            <property name="x">228</property>
+            <property name="y">218</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="itworks">
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+          </object>
+          <packing>
+            <property name="x">586</property>
+            <property name="y">444</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkFileChooserButton" id="import">
+            <property name="width-request">155</property>
+            <property name="height-request">119</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="title" translatable="yes"/>
+            <signal name="file-set" handler="on_import_file_set" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">290</property>
+            <property name="y">47</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
